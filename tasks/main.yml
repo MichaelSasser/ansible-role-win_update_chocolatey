@@ -1,0 +1,7 @@
+---
+
+- name: Upgrade installed packages
+  win_chocolatey:
+    name: all
+    state: latest
+  ignore_errors: yes
